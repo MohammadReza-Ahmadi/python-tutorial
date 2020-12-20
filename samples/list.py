@@ -30,3 +30,8 @@ b = ["one","two","tree"]
 print(b)
 b[0],b[2]=b[2],b[0]
 print(b)
+
+print("---- get first and last element of a list:")
+print(b[0])
+print(b[len(b)-1])
+print(b[-1])
